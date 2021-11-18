@@ -19,7 +19,11 @@
 
 header {
 	width: 100%;
-	height: 12.5rem;
+	height: 8rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: center;
 	background: #4183c4;
 }
 
@@ -27,15 +31,13 @@ header {
 	display: flex;
 	height: 3.75rem;
 	width: 100%;
-	margin-top: 2.5rem;
 	background: #4183c4;
-	position: fixed;
 	padding: 0 6.25rem;
 	box-shadow: 0 0 5px rgb(0 0 0 / 10%);
 }
 
 .title_hm {
-	width: 24rem;
+	width: 50%;
 	height: 3.75rem;
 	line-height: 3.75rem;
 	font-size: 2.5rem;
@@ -44,14 +46,20 @@ header {
 }
 
 .nav_li_hm {
-	height: 3.75rem;
+	width: 50%;
+	height: 100%;
 	line-height: 3.75rem;
-	font-size: 22px;
+	font-size: 1.375rem;
 }
 
 .content_hm {
-	height: calc(100% - 12.5rem);
+	min-height: calc(100% - 16rem);
 	width: calc(100% - 12.5rem);
 	margin: 1.25rem auto;
 	overflow-y: auto;
+}
+
+.hm_footer {
+	width: 100%;
+	height: 8rem;
 }
