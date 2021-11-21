@@ -25,7 +25,8 @@ header {
 }
 
 .hm_nav_title span {
-	background: url(../img/icon_monkey_black.png) no-repeat left center;
+	background: url(../img/icon_monkey_white.png) no-repeat left center;
+	background-size: 36px;
 	padding: 0 2.5rem;
 	color: #FFFFFF;
 }
