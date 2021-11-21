@@ -1,0 +1,19 @@
+.hm_content {
+	min-height: 40rem;
+	max-height: calc(100% - 11.75rem);
+	padding: 1.5rem 10rem 0 10rem;
+	overflow-y: auto;
+	display: flex;
+}
+
+.hm_content_post {
+	width: 80%;
+	height: 100%;
+	display: flex;
+}
+
+.hm_content_card {
+	width: 20%;
+	height: 100%;
+	display: flex;
+}
